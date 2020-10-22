@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META http-equiv=Content-Type content="text/html; charset=utf-8">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Fonts/stylesheet.css">
+</head>
+<body>
+	<header>
+		<div class="upper-header">
+			<ul class="upper-header-items">
+				<li>RU</li>
+				<li>EN</li>
+				<li>中国</li>
+				<li><button class="menu-button" onclick="toggle_visibility('lower-header-adaptive');">МЕНЮ</button></li>
+				<li class="search-item" ><img src="Images/Search.png" alt="Search"></li>
+			</ul>
+		</div>
+		<div class="lower-header">
+				<img class="brand-name" src="Images/Brand.png" alt="Brand-item">
+				<ul id="menu">
+					<li id="menu-item"><a href="#">О нас</a></li>
+					<li id="menu-item"><a href="#">Бренды</a></li>
+					<li id="menu-item"><a href="#">Как добраться</a></li>
+					<li id="menu-item"><a href="#">Акции</a></li>
+					<li id="menu-item"><a href="#">BS Club</a></li>
+					<li id="menu-item"><a href="#">Арендаторам</a></li>
+				</ul>
+				<div class="social-items-container"><ul class="social-items">
+					<li><a href="#"><img class="social-item" src="Images/Vkitem.png"></img></a></li>
+					<li><a href="#"><img class="social-item" src="Images/Fbitem.png"></img></a></li>
+					<li><a href="#"><img class="social-item" src="Images/Institem.png"></img></a></li>
+				</ul>
+				</div>
+				<button class="subscribe">Подписаться на новости</button>
+				
+		</div>
+		<div id="lower-header-adaptive">
+			<ul id="menu-adaptive">
+					<li class="menu-item-adaptive"><a href="#">О нас</a></li>
+					<li class="menu-item-adaptive"><a href="#">Бренды</a></li>
+					<li class="menu-item-adaptive"><a href="#">Как добраться</a></li>
+					<li class="menu-item-adaptive"><a href="#">Акции</a></li>
+					<li class="menu-item-adaptive"><a href="#">BS Club</a></li>
+					<li class="menu-item-adaptive"><a href="#">Арендаторам</a></li>
+				</ul>
+		</div>
+		<hr>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1 class="heading">Настройте вашу персональную рассылку</h1>
+			<p class="under-heading">Заполните короткую анкету, чтобы получать информацию, которая вам интересна, и не пропустить самые выгодные предложения!</p>
+
+			<form class="forms">
+
+					<div class="left-form">
+						<div class="form-item">
+							<p class="input-name">Имя</p>
+							<input type="text" name="name" class="name" placeholder="Иванов Иван">
+						</div>
+						
+						<div class="form-item">
+							<p class="input-name">Телефон</p>
+							<input type="tel" name="phone" class="phone">
+						</div>
+
+						<div class="form-item">
+							<p class="input-name">Дата рождения</p>
+							<input type="date" name="date" class="date">
+						</div>
+
+						<div class="form-item">
+							<p class="input-name">Подтвердить email</p>
+							<input type="email" name="email" class="email">
+						</div>
+					</div>
+
+					<div class="right-form">
+						<div class="form-item">
+							<p class="input-name">Пол</p>
+							<div class="gender-selection">
+								<p><input type="radio" name="gender" id="female"/><label for = "female">Женский</label></p>
+								<p><input type="radio" name="gender" id="male"/><label for = "male">Мужской</label></p>
+							</div>
+						</div>
+
+						<div class="form-item">
+							<div class="survey">
+							<p>Что бы вы хотели получать в рассылке?</p>
+							<p><input type="checkbox" name="gender" id="check1"/><label for = "check1">Коллекции от брендов</label></p>
+							<p><input type="checkbox" name="gender" id="check2"/><label for = "check2">Акции и новости</label></p>
+							<p><input type="checkbox" name="gender" id="check3"/><label for = "check3">Полезный контент</label></p>
+							</div>
+						</div>
+
+						<input type="submit" name="submit" id="submit"  value="Сохранить мои настройки" />
+						<p class="policy">Нажимая на кнопку, вы соглашаетесь<br> с <span><a href="#">Политикой обработки персональных данных</a></span></p>
+					</div>
+
+			</form>
+
+		</div>
+
+	</main>
+
+	<footer>
+		<div class="upper-footer">
+			<img src="Images/Brand2.png" alt="Brand">
+			<ul class="social-items">
+					<li><a href="#"><img class="social-item" src="Images/Vkitem2.png"></img></a></li>
+					<li><a href="#"><img class="social-item" src="Images/Fbitem2.png"></img></a></li>
+					<li><a href="#"><img class="social-item" src="Images/Institem2.png"></img></a></li>
+			</ul>
+		</div>
+
+		<div class="lower-footer">
+			<div class="lower-footer-content">
+				<div class="footer-column">
+					<img src="Images/Appstore.png" alt="Appstore">
+					<img src="Images/Googleplay.png" alt="Googleplay">
+				</div>
+
+				<div class="footer-column justify">
+					<p class="phone-number">+7 343 215-92-20</p>
+					<p class="policy footer-policy">Пользуясь сайтом вы соглашаетесь с<br><span><a href="#">Политикой обработки персональных данных</a></span></p>
+				</div>
+
+				<div class="footer-column justify">
+					<a href="#"><p>О нас</p></a>
+					<a href="#"><p>Бренды</p></a>
+					<a href="#"><p>Как добраться</p></a>
+				</div>
+				<div class="footer-column justify">
+					<a href="#"><p>Акции</p></a>
+					<a href="#"><p>BS Club</p></a>
+					<a href="#"><p>Арендаторам</p></a>
+				</div>
+				<div class="footer-column justify">
+					<a href="#"><p>Вакансия</p></a>
+					<p>&nbsp; </p>
+					<p>&nbsp; </p>
+				</div>
+			</div>
+				<div class="footer-column justify">
+					<p>&nbsp; </p>
+					<p>&nbsp; </p>
+					<p>Сделано в <img src="Images/Logo.png" alt="Logo"></p>
+				</div>
+		</div>
+	</footer>
+
+			<script type="text/javascript">
+			function toggle_visibility(id) {
+       			var e = document.getElementById('lower-header-adaptive');
+       			if(e.style.display == 'flex')
+          			e.style.display = 'none';
+       			else {
+          			e.style.display = 'flex';
+	          		e.style.width = '100%';
+					let menuAdaptive = document.getElementById("menu-adaptive")
+					menuAdaptive.style.display = 'flex';
+					menuAdaptive.style.flexDirection = 'column';
+					menuAdaptive.style.justifyContent = 'center';
+					menuAdaptive.style.margin = '0 auto';
+					menuAdaptive.style.listStyle = 'none';
+					menuAdaptive.style.fontSize = '20px'
+      				}
+       			}	
+		</script>
+</body>
+</html>
